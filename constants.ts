@@ -28,61 +28,77 @@ export const ZEN_STANDARD_THEME: DesignSystem = {
     containerClass: "min-h-screen bg-[#F9F9F9]"
   },
   layout: "premium",
-  backgroundPattern: "" 
+  backgroundPattern: ""
 };
 
 export const PORTFOLIO_DATA: PortfolioContent = {
   profile: {
-    name: "ION0110",
-    role: "Frontend Engineer",
-    bio: "I craft digital experiences with a focus on motion, interaction, and performance. Designing the unseen interface between human intent and machine execution.",
+    name: "mono",
+    role: "Data Specialist & Developer",
+    bio: "かつてフロントエンドエンジニアとして磨いたロジカルな思考を武器に、現在は学校事務というフィールドで校務DXを推進しています。Excel（VBA/PowerQuery）を駆使したデータ成形や情報のクレンジング、業務自動化に特化した「テクニカル事務」という独自の立ち位置を確立しています。",
     socials: [
       { name: "GitHub", url: "https://github.com/ion0110" },
-      { name: "Twitter", url: "#" },
-      { name: "Qiita", url: "#" }
+      { name: "note", url: "https://note.com/_ion" }
     ]
   },
   experience: [
     {
-      period: "2022 — Present",
-      role: "Frontend Engineer",
-      company: "Tech Company Inc.",
-      description: "Spearheaded the migration to a modern React architecture, improving load times by 40%. Developed a proprietary design system used across 5 distinct products."
+      period: "Present",
+      role: "Technical Administrator / DX Promoter",
+      company: "School Administration",
+      description: "フロントエンドエンジニアとしての経験を活かし、学校事務の現場でDXを推進。Excel/VBA/PowerQueryを用いた業務自動化や、データクレンジングによる業務効率化をリード。"
     },
     {
-      period: "2020 — 2022",
-      role: "Web Developer",
-      company: "Freelance",
-      description: "Delivered bespoke web solutions for diverse clients, focusing on headless CMS integrations and e-commerce optimization using Shopify and Next.js."
+      period: "Past",
+      role: "Frontend Engineer",
+      company: "Web Development",
+      description: "ロジカルな思考と実装力を磨き、モダンなWebアプリケーション開発に従事。"
     }
   ],
   projects: [
     {
       id: "1",
-      title: "Portfolio System",
-      description: "A highly customizable portfolio generation engine powered by React and JSON. Features dynamic theming and semantic markup.",
-      tags: ["React", "TypeScript", "Tailwind"],
-      link: "https://ion0110.github.io/myportfolio/",
-      image: "https://picsum.photos/seed/portfolio/1200/800"
+      title: "Quick Knowledge",
+      description: "フロントエンドの知見と事務効率化のノウハウを統合したナレッジベース。サンプルFAQ。",
+      tags: ["Knowledge Base", "FAQ"],
+      link: "https://ion0110.github.io/quickknowledge/",
+      image: "https://picsum.photos/seed/qk/1200/800"
     },
     {
       id: "2",
-      title: "Task Management",
-      description: "A Kanban-style task manager focusing on drag-and-drop fluidity and real-time synchronization.",
-      tags: ["Vue.js", "Firebase", "DnD"],
-      link: "#",
-      image: "https://picsum.photos/seed/task/1200/800"
+      title: "Receipt Capture",
+      description: "OCRを活用した精算業務の効率化。領収書管理プロトタイプ（要ログイン）。",
+      tags: ["OCR", "FinTech", "Prototype"],
+      link: "https://ion0110.github.io/receipt_capture",
+      image: "https://picsum.photos/seed/rc/1200/800"
     },
     {
       id: "3",
-      title: "Weather Dash",
-      description: "Minimalist weather visualization using complex API data aggregation and Chart.js for trend analysis.",
-      tags: ["Next.js", "API", "Chart.js"],
-      link: "#",
-      image: "https://picsum.photos/seed/weather/1200/800"
+      title: "PDF Editor",
+      description: "ブラウザ上で動作する直感的なPDF編集ツール。プライバシー保護のため、すべての処理はローカルで完結。ザ・シンプル。",
+      tags: ["PDF", "Privacy First", "Tool"],
+      link: "https://ion0110.github.io/pdf_editor/",
+      image: "https://picsum.photos/seed/pdf/1200/800"
+    },
+    {
+      id: "4",
+      title: "Snap Entry",
+      description: "セミナー受付などの管理ツール。レスポンシブ対応。CSVでの一括登録も可能。合言葉は\"tamamonomae\"",
+      tags: ["Management", "CSV", "Responsive"],
+      link: "https://ion0110.github.io/snap_entry/",
+      image: "https://picsum.photos/seed/snap/1200/800"
+    },
+    {
+      id: "5",
+      title: "Report Flow",
+      description: "美しいレイアウトでレポートを作成・出力できるツール。シンプルな操作で、見やすく洗練されたドキュメントを手軽に生成。",
+      tags: ["Report", "Generator", "UI/UX"],
+      link: "https://ion0110.github.io/report_flow/",
+      image: "https://picsum.photos/seed/report/1200/800"
     }
   ],
   skills: [
-    "TypeScript", "React", "Next.js", "Node.js", "WebGL", "TailwindCSS", "AWS", "Figma", "UI/UX Design"
+    "Excel / VBA", "PowerQuery", "Data Cleansing", "AI", "HTML / CSS / JavaScript",
+    "業務プロセス自動化", "データ分析・レポート", "DX推進"
   ]
 };
